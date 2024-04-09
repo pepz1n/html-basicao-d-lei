@@ -10,12 +10,13 @@
     <table>
       <tr>
         <td>
-          <input type="text">
+          <input required readonly type="text">
         </td>
       </tr>
       <tr>
         <td>
-          <input type="password" name="" id="">
+          <input placeholder="Senha" type="password" name="senha" id="senha">
+          <label for="senha">Coloque sua senha!</label>
         </td>
       </tr>
       <tr>
@@ -25,11 +26,20 @@
       </tr>
       <tr>
         <td>
+          <label for="op-1"> opcao 1</label>
+          <input type="radio" name="primeiroRadio" id="op-1">
+        </td>
+        <td>
+          <label for="op-2"> opcao 2</label>
+          <input type="radio" name="primeiroRadio" id="op-2">
+        </td>
+      </tr>
+      <tr>
+        <td>
           <input type="submit" value="Enviar">
         </td>
       </tr>
     </table>
-
   </form>
 </body>
 </html>
